@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("localhost:8080")
+@CrossOrigin("localhost:8080") //ten fragment nalezy zmienic w zaleznosci od miejsca wdrozenia aplikacji
 @RestController
 @RequestMapping("/api/v1/data")
 public class BaseController {
